@@ -1,0 +1,57 @@
+[root@linuxkit-025000000001 ~]# journalctl -xe
+-- Logs begin at Sun 2019-03-03 14:16:27 UTC, end at Sun 2019-03-03 14:18:09 UTC. --
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(veth1e32f05) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: device veth1e32f05 entered promiscuous mode
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPv6: ADDRCONF(NETDEV_UP): veth1e32f05: link is not ready
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPVS: Creating netns size=2104 id=31
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPVS: ftp: loaded support on port[0] = 21
+Mar 03 14:16:27 linuxkit-025000000001 kernel: eth0: renamed from vethc70729c
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth1e32f05: link becomes ready
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(veth1e32f05) entered blocking state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(veth1e32f05) entered forwarding state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(veth1e32f05) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: vethc70729c: renamed from eth0
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(veth1e32f05) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: device veth1e32f05 left promiscuous mode
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(veth1e32f05) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethba7c2de) entered blocking state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethba7c2de) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: device vethba7c2de entered promiscuous mode
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPv6: ADDRCONF(NETDEV_UP): vethba7c2de: link is not ready
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPVS: Creating netns size=2104 id=32
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPVS: ftp: loaded support on port[0] = 21
+Mar 03 14:16:27 linuxkit-025000000001 kernel: eth0: renamed from veth1261454
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethba7c2de: link becomes ready
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethba7c2de) entered blocking state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethba7c2de) entered forwarding state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: veth1261454: renamed from eth0
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethba7c2de) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethba7c2de) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: device vethba7c2de left promiscuous mode
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethba7c2de) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethc9df7c8) entered blocking state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethc9df7c8) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: device vethc9df7c8 entered promiscuous mode
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPv6: ADDRCONF(NETDEV_UP): vethc9df7c8: link is not ready
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPVS: Creating netns size=2104 id=33
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPVS: ftp: loaded support on port[0] = 21
+Mar 03 14:16:27 linuxkit-025000000001 kernel: eth0: renamed from veth54f633d
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethc9df7c8: link becomes ready
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethc9df7c8) entered blocking state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethc9df7c8) entered forwarding state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethc9df7c8) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: veth54f633d: renamed from eth0
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethc9df7c8) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: device vethc9df7c8 left promiscuous mode
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(vethc9df7c8) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(veth0adbeab) entered blocking state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(veth0adbeab) entered disabled state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: device veth0adbeab entered promiscuous mode
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPv6: ADDRCONF(NETDEV_UP): veth0adbeab: link is not ready
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPVS: Creating netns size=2104 id=34
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPVS: ftp: loaded support on port[0] = 21
+Mar 03 14:16:27 linuxkit-025000000001 kernel: eth0: renamed from veth5e679f6
+Mar 03 14:16:27 linuxkit-025000000001 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth0adbeab: link becomes ready
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(veth0adbeab) entered blocking state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(veth0adbeab) entered forwarding state
+Mar 03 14:16:27 linuxkit-025000000001 kernel: docker0: port 1(veth0adbeab) entered disabled state

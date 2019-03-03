@@ -1,1 +1,1 @@
-docker run --privileged -d --name cs04 centos:did /sbin/init
+docker run --net=host --privileged -d --name did_centos did:centos /sbin/init
